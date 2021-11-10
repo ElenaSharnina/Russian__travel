@@ -5,19 +5,19 @@
     margin: 0 16px 16px 16px;
     padding: 0;
     text-align: center;
-    font-family: 'Inter';
+    font-family: 'Inter', Arial, sans-serif;
     font-style:  normal;
     font-weight: 900;
  }
  @media screen and (min-width:768px) {
-    .lead__title { 
-        margin: 48px 24px 32px 24px;
-        font-size: 96px;
-        line-height: 100px;
-    }
+   .lead__title { 
+      margin: 48px 24px 32px 24px;
+      font-size: 96px;
+      line-height: 100px;
+   }
  }
  @media screen and (min-width:1024px) {
-     .lead__title {
-        margin: 48px 152px 32px 152px;
-     }
-    }
+   .lead__title {
+      margin: 48px 152px 32px 152px;
+   }
+}

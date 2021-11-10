@@ -1,28 +1,9 @@
 .cover {
-    background-image: url(../../sprint-3-images/cover-trains.jpg);
+    background-image: url(../../images/cover-trains.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     padding: 16.5% 5% 16.5% 5%;
     position: relative;
-}
-
-.cover:hover:before {
-    content: "";
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    background: rgba(42, 44, 47, 0.8);
-}
-.cover:focus:before {
-    content: "";
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    background: rgba(42, 44, 47, 0.8);
 }
 @media screen and (min-width:768px) {
     .cover {
