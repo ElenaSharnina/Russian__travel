@@ -5,6 +5,7 @@
     left: 0;
     right: 0;
     background: rgba(42, 44, 47, 0.3);
+    margin: 0 auto;
 }
 .cover__overlay:hover{
     background: rgba(42, 44, 47, 0.8);

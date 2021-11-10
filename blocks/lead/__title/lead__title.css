@@ -21,3 +21,8 @@
       margin: 48px 152px 32px 152px;
    }
 }
+@media screen and (min-width:1280px) {
+   .lead__title {
+      margin: 56px 280px 32px 280px;
+   }
+}
