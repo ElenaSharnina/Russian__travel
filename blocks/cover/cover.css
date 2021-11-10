@@ -15,6 +15,15 @@
     right: 0;
     background: rgba(42, 44, 47, 0.8);
 }
+.cover:focus:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(42, 44, 47, 0.8);
+}
 @media screen and (min-width:768px) {
     .cover {
         padding: 115px 104px 115px 104px;
