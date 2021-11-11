@@ -8,5 +8,6 @@
     .footer__columns {
         gap: 69px;
         grid-template-columns: max-content max-content;
+        margin-top: 88px;
     }
 }

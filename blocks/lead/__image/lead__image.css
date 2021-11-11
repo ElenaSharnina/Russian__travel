@@ -1,5 +1,10 @@
 .lead__image {
-    margin:40px 0 8px 0;
+    margin: 40px 0 8px 0;
+}
+@media screen and (min-width:768px) {
+    .lead__image {
+        margin-top: 56px;
+    }
 }
 @media screen and (min-width:1024px) {
     .lead__image {

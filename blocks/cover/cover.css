@@ -2,13 +2,25 @@
     background-image: url(../../images/cover-trains.jpg);
     background-size: cover;
     background-repeat: no-repeat;
-    padding: 16.5% 5% 16.5% 5%;
+    padding: 10% 5%;
     position: relative;
     box-sizing: border-box;
+    background-position: center;
+}
+@media screen and (min-width:768px) {
+    .cover {
+        padding: 15% 13.5%;
+    }
+}
+@media screen and (min-width:1024px) {
+    .cover {
+        padding: 19% 22.6%;
+    }
 }
 @media screen and (min-width:1280px) {
     .cover {
         margin: 0 auto;
         max-width: 1184px;
+        padding: 245px 312px;
     }
 }
