@@ -1,14 +1,17 @@
 .lead__image {
     margin: 40px 0 8px 0;
     object-fit: contain;
+    width: 100%;
 }
 @media screen and (min-width:768px) {
     .lead__image {
         margin-top: 56px;
+        width: auto;
     }
 }
 @media screen and (min-width:1024px) {
     .lead__image {
+
         margin: 56px 48px 8px 48px;
     }
 }
